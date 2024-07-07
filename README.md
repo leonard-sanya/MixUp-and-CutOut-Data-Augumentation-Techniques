@@ -35,10 +35,7 @@ where $x_i,x_j$ are raw inputs vectors $y_i,y_j $ are one-hot label encodings an
 ## Results
 - The suummary table below shows model evaluation when trained using the Cutout, Cutmix and Mixup, we notice a significance change in the Top-1 error rate when using the Mixup data augmentation.
 
-| Datasets | CutOut | MixUp | CutMix | CutOut | MixUp | CutMix | CutOut | MixUp | CutMix |
-| -------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| CIFAR10  | 14.78% | 13.12% | 14.90% | 0.90%  | 1.00%  | 0.81%  | 85.39% | 87.27% | 85.10% |
-| CIFAR100 | 44.15% | 41.04% | 53.43% | 15.86% | 15.78% | 23.28% | 56.37% | 58.98% | 46.57% |
+<img src="https://github.com/leonard-sanya/MixUp-and-CutOut-Data-Augumentation-Techniques/blob/main/results.png" width="1024" height="150"/>
 	
 ## License
 
